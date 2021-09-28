@@ -16,7 +16,7 @@ SECRET_KEY = 'y=(ebl4aq_aso)msecret key 2z6a04c486b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['maisteste.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
