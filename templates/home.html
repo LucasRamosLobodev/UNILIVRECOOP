@@ -112,7 +112,9 @@
       {% include 'scripts.html' %}
       <script>
          // Animation init
-         new WOW().init();
+         $( document ).ready(function() {
+    new WOW().init()
+});
          
          // Material Select Initialization
          $(document).ready(function () {
