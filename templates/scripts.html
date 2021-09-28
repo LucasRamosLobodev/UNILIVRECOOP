@@ -1,4 +1,13 @@
     {% load static %}
+    <script>
+      // Animation init
+      new WOW().init();
+      
+      // Material Select Initialization
+      $(document).ready(function () {
+        $('.mdb-select').material_select();
+      });
+   </script>
     <script src="{% static 'js/jquery.min.js' %}"></script>
       <script src="{% static 'js/popper.min.js' %}"></script>
       <script src="{% static 'js/bootstrap.min.js' %}"></script>
