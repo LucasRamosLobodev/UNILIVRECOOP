@@ -3,4 +3,13 @@
       <script type="text/html" src="{% static 'js/popper.min.js' %}"></script>
       <script type="text/html" src="{% static 'js/bootstrap.min.js' %}"></script>
       <script type="text/html" src="{% static 'js/mdb.min.js' %}"></script>
+      <script>
+        // Animation init
+        new WOW().init();
+        
+        // Material Select Initialization
+        $(document).ready(function () {
+          $('.mdb-select').material_select();
+        });
+     </script>
       
