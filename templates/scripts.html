@@ -1,15 +1,8 @@
     {% load static %}
-    <script type="text/html" src="{% static 'js/jquery.min.js' %}"></script>
-      <script type="text/html" src="{% static 'js/popper.min.js' %}"></script>
-      <script type="text/html" src="{% static 'js/bootstrap.min.js' %}"></script>
-      <script type="text/html" src="{% static 'js/mdb.min.js' %}"></script>
-      <script>
-        // Animation init
-        new WOW().init();
-        
-        // Material Select Initialization
-        $(document).ready(function () {
-          $('.mdb-select').material_select();
-        });
-     </script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+      <script src="{% static 'js/popper.min.js' %}"></script>
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+      <script src="{% static 'js/mdb.min.js' %}"></script>
+      <script src="{% static 'js/wow.min.js' %}"></script>
+     
       

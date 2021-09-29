@@ -110,6 +110,15 @@
       </footer>
       <!-- Footer -->
       {% include 'scripts.html' %}
-     
+      <script src="{% static 'js/jquery.min.js' %}"></script>
+      <script>
+         // Animation init
+         new WOW().init();
+         
+         // Material Select Initialization
+         $(document).ready(function () {
+           $('.mdb-select').material_select();
+         });
+      </script>
    </body>
 </html>
